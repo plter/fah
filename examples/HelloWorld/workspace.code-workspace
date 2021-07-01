@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../libfah"
+		}
+	],
+	"settings": {
+		"as3mxml.sdk.framework": "/Users/plter/Work/apps/apache-royale-0.9.7-bin-js/royale-asjs"
+	}
+}
