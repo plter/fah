@@ -61,6 +61,7 @@ package flash.display {
 
         public function removeChild(child:DisplayObject):DisplayObject {
             htmlElement.removeChild(child.htmlElement);
+            child.setParent(null);
             return child;
         }
 

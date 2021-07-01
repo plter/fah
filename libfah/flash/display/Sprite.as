@@ -6,6 +6,7 @@ package flash.display {
         public function Sprite() {
             htmlElement = document.createElement("div") as HTMLElement;
             htmlElement.style.position = "absolute";
+            htmlElement.style.transformStyle = "preserve-3d";
 
             _graphics = Graphics.createGraphics();
             var graphicsLayer:UIGraphicsBase = _graphics.renderTarget as UIGraphicsBase;

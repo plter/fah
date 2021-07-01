@@ -13,6 +13,8 @@ package flash.display {
             htmlElement.style.width = width + "px";
             htmlElement.style.height = height + "px";
             htmlElement.style.overflow = 'hidden';
+            htmlElement.style.perspective = "800px";
+            htmlElement.style.perspectiveOrigin = "center";
         }
 
         private static var __locked:Boolean = true;

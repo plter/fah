@@ -43,5 +43,38 @@ package flash.display {
         public function get name():String {
             return _name;
         }
+
+        private var _x:Number = 0;
+
+        public function get x():Number {
+            return _x;
+        }
+
+        public function set x(v:Number):void {
+            htmlElement.style.transform = "translateX(" + v + "px)"
+            _x = v;
+        }
+
+        private var _y:Number = 0;
+
+        public function get y():Number {
+            return _y;
+        }
+
+        public function set y(v:Number):void {
+            htmlElement.style.transform = "translateY(" + v + "px)"
+            _y = v;
+        }
+
+        private var _z:Number = 0;
+
+        public function get z():Number {
+            return _z;
+        }
+
+        public function set z(v:Number):void {
+            _z = v;
+            htmlElement.style.transform = "translateZ(" + v + "px)"
+        }
     }
 }
