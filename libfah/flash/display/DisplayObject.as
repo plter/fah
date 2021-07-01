@@ -51,7 +51,7 @@ package flash.display {
         }
 
         public function set x(v:Number):void {
-            htmlElement.style.transform = "translateX(" + v + "px)"
+            htmlElement.style.transform = "translateX(" + v + "px)";
             _x = v;
         }
 
@@ -62,7 +62,7 @@ package flash.display {
         }
 
         public function set y(v:Number):void {
-            htmlElement.style.transform = "translateY(" + v + "px)"
+            htmlElement.style.transform = "translateY(" + v + "px)";
             _y = v;
         }
 
@@ -74,7 +74,7 @@ package flash.display {
 
         public function set z(v:Number):void {
             _z = v;
-            htmlElement.style.transform = "translateZ(" + v + "px)"
+            htmlElement.style.transform = "translateZ(" + v + "px)";
         }
     }
 }
